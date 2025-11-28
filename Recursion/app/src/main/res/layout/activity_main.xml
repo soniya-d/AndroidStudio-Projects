@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:src="@drawable/background" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="30dp"
+            android:text="Recrusion Sequences"
+            android:textSize="37sp"
+            android:fontFamily="casual"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Ques1"
+                android:layout_width="68dp"
+                android:layout_height="58dp"
+                android:layout_margin="5dp"
+                android:background="#93C5E6"
+                android:onClick="Q1"
+                android:padding="15dp"
+                android:textSize="16dp"
+                android:text="Q1" />
+
+            <Button
+                android:id="@+id/Ques2"
+                android:layout_width="68dp"
+                android:layout_height="58dp"
+                android:layout_margin="5dp"
+                android:background="#93C5E6"
+                android:onClick="Q2"
+                android:padding="15dp"
+                android:textSize="16dp"
+                android:text="Q2" />
+
+            <Button
+                android:id="@+id/Ques3"
+                android:layout_width="68dp"
+                android:layout_height="58dp"
+                android:layout_margin="5dp"
+                android:background="#93C5E6"
+                android:onClick="Q3"
+                android:padding="15dp"
+                android:textSize="16dp"
+                android:text="Q3" />
+
+            <Button
+                android:id="@+id/Ques4"
+                android:layout_width="68dp"
+                android:layout_height="58dp"
+                android:layout_margin="5dp"
+                android:background="#93C5E6"
+                android:onClick="Q4"
+                android:textSize="16dp"
+                android:padding="15dp"
+                android:text="Q4" />
+
+            <Button
+                android:id="@+id/Ques5"
+                android:layout_width="68dp"
+                android:layout_height="58dp"
+                android:layout_margin="5dp"
+                android:background="#93C5E6"
+                android:onClick="Q5"
+                android:textSize="16dp"
+                android:padding="15dp"
+                android:text="Q5" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Ques6"
+                android:layout_width="68dp"
+                android:layout_height="58dp"
+                android:layout_margin="5dp"
+                android:background="#93C5E6"
+                android:onClick="Q6"
+                android:padding="15dp"
+                android:textSize="16dp"
+                android:text="Q6" />
+
+            <Button
+                android:id="@+id/Ques7"
+                android:layout_width="68dp"
+                android:layout_height="58dp"
+                android:layout_margin="5dp"
+                android:background="#93C5E6"
+                android:onClick="Q7"
+                android:padding="15dp"
+                android:textSize="16dp"
+                android:text="Q7" />
+
+            <Button
+                android:id="@+id/Ques8"
+                android:layout_width="68dp"
+                android:layout_height="58dp"
+                android:layout_margin="5dp"
+                android:background="#93C5E6"
+                android:onClick="Q8"
+                android:padding="15dp"
+                android:textSize="16dp"
+                android:text="Q8" />
+
+            <Button
+                android:id="@+id/Ques9"
+                android:layout_width="68dp"
+                android:layout_height="58dp"
+                android:layout_margin="5dp"
+                android:background="#93C5E6"
+                android:onClick="Q9"
+                android:padding="15dp"
+                android:textSize="16dp"
+                android:text="Q9" />
+
+            <Button
+                android:id="@+id/Ques10"
+                android:layout_width="68dp"
+                android:layout_height="58dp"
+                android:layout_margin="5dp"
+                android:background="#93C5E6"
+                android:onClick="Q0"
+                android:textSize="16dp"
+                android:padding="15dp"
+                android:text="Q0" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 1   2   3   4   5   6   7   8   9"
+                android:textSize="36dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10  11  12 13  14"
+                android:textSize="36dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
